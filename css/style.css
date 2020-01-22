@@ -1,0 +1,309 @@
+/*Natural Box Model
+	
+*/
+html{
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0px;
+	font-weight: 400;
+	background-color: #bae3ff;/*blue-grey*/
+}
+
+div.wrapper{
+	margin: auto 20px auto 20px;
+	/*background-color: #e6ffff;*/
+}
+
+/*Font style: '700' weight*/
+h1{
+	font-weight: 700;	
+}
+
+h2
+{
+
+}
+
+h3{
+
+}
+blockquote{
+	font-weight: 300;
+	text-align: center;
+	width:500px;
+	margin-left: auto;
+	margin-right: auto;
+	padding:8px;	
+}
+
+ul{
+	list-style-type: none; /*Remove list bullets*/
+	margin:0; /*Setting margin and padding to '0', removes browsers default settings*/
+	padding:0; 
+}
+
+nav {
+	width: 420px;
+	height:55px;
+	margin: 10px auto 10px auto;
+
+}
+/*Style the list elements inside the nav*/
+  nav ul li a {
+	display:inline-block;
+	background-color: #b2ffdc;/*light green colour*/
+	border-radius: 10px;
+	padding:10px;
+	text-decoration: none;
+	margin:3px 2px 3px 8px;
+	width:127px;
+	float:left;
+	text-align: center;
+	color: black;
+}
+
+ul li a:hover{
+	background-color: #7ce771; /*darker Green*/
+	color: #3bafff;/*Hex Sky Blue 1*/
+}
+
+ol li a {
+	text-decoration: none;
+	color:blue;
+}
+
+ol li a:hover{
+	color:red;
+}
+
+header{
+	background: #FFFFFF url("../images/sky.jpg") no-repeat top left; 
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 35px;
+	padding: 45px;
+	width: 600px;height: 130px;
+}
+
+img{
+	width:300px;
+	height: 300px;
+	margin:10px;
+}
+
+footer{
+	margin-top:10px;
+	padding: 15px;
+	font-style: bold;
+	height:50px;
+	text-align: center;
+}
+
+table{
+	display:block;
+	color:#191970; /*Midnight Blue*/
+	background-color: 
+	padding: 5px;
+}
+
+table tr.custom-header-row{
+	color:#ffffff;/*White font*/
+	background-color:rgb(169,169,169);/*dark grey (rgb)*/
+	text-transform: uppercase;
+}
+
+.even-row{
+	background-color:rgb(211,211,211); /*light grey (rgb)*/
+}
+
+.custom-table table tr {
+	display: block;
+	border: 1px black solid;
+	width:50px;
+}
+
+.custom-table tr td {
+	border: 2px rgb(169,169,169) solid;
+	border-radius: 5px;
+	padding:2px;
+}
+
+div.wrapper-booking-div{
+	display: block;
+	border-radius: 10px;
+	background-color: #a0e2e5; /*very light blue*/
+	width:1230px;
+	height:350px;
+	margin:10px auto 40px auto;
+	padding: 2px;
+}
+
+.booking-info{
+	display:inline-block;
+	background-color: #e6ffff;
+	border-radius: 10px;
+	width:300px;
+	height:280px;
+	padding:12px;
+	margin:25px 0px 0px 40px;
+	text-align: center;
+	float:left;
+}
+
+aside{
+	display: inline-block;
+	background-color: #00FF7F;
+	border: 2px black dotted;
+	line-height: 2;
+	width:500px;
+	height: 230px;
+	margin: 60px 0px 0px 45px;
+	padding: 10px;
+	float: left;
+}
+
+div.wrapper-booking-div img{
+	float:left;
+	padding: 15px 0px 0px 0px;
+}
+
+.intro{
+	text-align: center;
+	background-color: #d0fdff; /*Very light blue/grey colour*/
+	width: 50%;
+	margin: 0px auto 0px auto;
+	padding:10px;
+	border-radius: 10px;
+}
+
+span.bold{
+	font-weight: bold;
+}
+
+span.italic{
+	font-style: italic;
+}
+
+.montserrat-700{
+	font-weight: 700;	
+}
+
+.about-us-div{
+	text-align: center;
+	width: 50%;
+	margin:0px auto 0px auto;
+}
+
+.main-page-custom-div{
+	border-radius: 10px;
+	background-color: #a0e2e5; /*very light blue*/
+	margin:20px auto 10px auto;
+	width:1000px;
+	height: 350px;
+	padding:10px;
+}
+
+span.background-color{
+	background-color: #00FFFF;
+	color: #4169E1;/*Royal blue*/
+	padding: 5px;
+}
+
+#custom-div-a{
+	display: block;
+	text-align: center;
+	border-left: 10px solid white;
+	background-color: #b2ffdc; 
+	margin:20px auto 20px auto;
+	width: 70%;
+	padding: 15px;
+}
+
+#custom-div-b{
+	display: block;
+	text-align: center;
+	background-color: rgba(147,112,219,0.2);
+	margin:20px auto 20px auto;
+	width: 70%;
+	padding: 15px;
+}
+
+#custom-div-C{
+	display: block;
+	text-align: center;
+	color: blue;/*light green colour*/
+	text-shadow: 2px 3px #ffffff;
+	font-size: 20px;
+	width: 50%;
+	margin:0px auto 0px auto;
+	padding: 15px;
+}
+
+#custom-div-D{
+	display: block;
+	text-align: center;
+	border:5px #DC143C solid;/*crimson red*/
+	background-color: white;
+	border-radius: 40px;
+	width: 50%;
+	margin:0px auto 0px auto;
+	padding: 15px;
+	margin-top: 20px;
+}
+
+#line-through{
+	text-decoration: line-through;
+}
+
+div.ordered-list-div{
+	display:block;
+	background-color:white;
+	width: 50%;
+	margin:20px auto 0px auto;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+blockquote{
+	font-weight: 300;
+	width: 50%;
+	padding:15px;
+}
+
+section.span-italic-section{
+	background-color: #d0fdff; /*Very light blue/grey colour*/
+	text-align: center;
+	padding: 15px;
+	width:800px;
+	height: 100px;
+	margin: 20px auto 0px auto;
+	border-radius: 10px;
+}
+
+button{
+	display:block;
+	margin:10px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:rgb(211,211,211);
+	border-radius: 10px;
+	width:115px;
+	height: 35px;
+	font-size: 15px;
+}
+
+button:hover{
+	background-color: #9370DB;
+	color:white;
+}
+
